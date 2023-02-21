@@ -1,0 +1,98 @@
+body {
+    background-color: #0d192c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    background-color: #15263f;
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;
+    padding: 24px;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  .img-cont {
+    position: relative;
+  }
+  .img-cont:hover .view {
+    visibility: visible;
+  }
+  
+  .view {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 248, 0.5);
+  }
+  
+  h1 {
+    font-size: 22px;
+    font-family: "Outfit";
+    color: #ffffff;
+    line-height: 28px;
+  }
+  h1:hover {
+    color: #00fff8;
+  }
+  p {
+    color: #8bacd9;
+    font-family: "Outfit";
+    font-size: 18px;
+    line-height: 26px;
+  }
+  eth {
+    color: #00fff8;
+    font-size: 16px;
+  }
+  left {
+    color: #8bacd9;
+    font-family: "Outfit";
+    font-size: 16px;
+  }
+  .p4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line {
+    color: #2e405a;
+    border: 1px solid;
+    margin-top: 24px;
+  }
+  .avatar {
+    margin-right: 16px;
+    width: 33px;
+    border-radius: 50%;
+    border: 0.5px solid;
+    color: #ffffff;
+  }
+  .creation {
+    color: #8bacd9;
+    font-size: 16px;
+    font-family: "Outfit";
+  }
+  .name {
+    color: #ffffff;
+    font-family: "Outfit";
+    margin-left: 5px;
+  }
+  .name:hover {
+    color: #00fff8;
+  }
+  .bottom {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
