@@ -41,19 +41,37 @@ body {
     color: #ffffff;
     line-height: 28px;
   }
+
   h1:hover {
     color: #00fff8;
   }
+
   p {
     color: #8bacd9;
     font-family: "Outfit";
     font-size: 18px;
     line-height: 26px;
   }
+
   eth {
     color: #00fff8;
     font-size: 16px;
+    margin-left: 6px;
+    
   }
+
+  .ethereum{
+    display: flex;
+  }
+  .image-ethereum{
+    height: 16px;
+  }
+
+  .image-clock{
+    width: 13px;
+    height: 13px;
+  }
+  
   left {
     color: #8bacd9;
     font-family: "Outfit";
